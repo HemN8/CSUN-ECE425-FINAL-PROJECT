@@ -21,6 +21,8 @@ This project applies several embedded systems concepts covered throughout the se
 # Functional Block Diagram
 ![image](https://github.com/user-attachments/assets/6a9f0baa-264b-44fa-96dd-a53e6995b845)
 
+![image](https://github.com/user-attachments/assets/12dc9df7-1057-4e59-92c3-6fa34a458eff)
+
 # Components Used
 1)TM4C123GH6PM	
 2) US-100 Ultrasonic Sensor
