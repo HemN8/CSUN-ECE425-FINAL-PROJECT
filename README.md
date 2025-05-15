@@ -12,23 +12,30 @@ https://drive.google.com/file/d/1GNAEnxigGnocDHizQVM3YNYUkT3DbUKr/view?usp=shari
 
 # Background and Methodology
 This project applies several embedded systems concepts covered throughout the semester, including:
-UART Communication: Used to interface with the US-100 ultrasonic sensor in UART mode.
-PWM via General-Purpose Timer (PWM0): Used to control a standard servo motor for scanning.
-GPIO: For LCD control and optional LED indicators.
-SysTick Timer: For generating delays and timing intervals.
-LCD Interface: Used to show real-time tracking information (distance and status).
+1) UART Communication: Used to interface with the US-100 ultrasonic sensor in UART mode.
+2) PWM via General-Purpose Timer (PWM0): Used to control a standard servo motor for scanning.
+3) GPIO: For LCD control and optional LED indicators.
+4) SysTick Timer: For generating delays and timing intervals.
+5) LCD Interface: Used to show real-time tracking information (distance and status).
 
 # Functional Block Diagram
 ![image](https://github.com/user-attachments/assets/6a9f0baa-264b-44fa-96dd-a53e6995b845)
 
 # Components Used
-TM4C123GH6PM	
-US-100 Ultrasonic Sensor	
-Micro Servo Motor	
-16x2 LCD Display	
-Jumper Wires	
-USB Micro Cable
-EduBASE board
+1)TM4C123GH6PM	
+
+2) US-100 Ultrasonic Sensor
+   
+3) Micro Servo Motor
+ 	
+4) 16x2 LCD Display
+
+5) Jumper Wires
+
+6) USB Micro Cable
+
+7) EduBASE board
+   
 
 # Pinout Used
 
