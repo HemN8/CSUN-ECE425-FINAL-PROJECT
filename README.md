@@ -13,12 +13,19 @@ https://drive.google.com/file/d/1GNAEnxigGnocDHizQVM3YNYUkT3DbUKr/view?usp=shari
 ![image](https://github.com/user-attachments/assets/12dc9df7-1057-4e59-92c3-6fa34a458eff)
 
 # Background and Methodology
-This project applies several embedded systems concepts covered throughout the semester, including:
-1) UART Communication: Used to interface with the US-100 ultrasonic sensor in UART mode.
-2) PWM via General-Purpose Timer (PWM0): Used to control a standard servo motor for scanning.
-3) GPIO: For LCD control and optional LED indicators.
-4) SysTick Timer: For generating delays and timing intervals.
-5) LCD Interface: Used to show real-time tracking information (distance and status).
+This project integrates several embedded systems concepts to build a real-time object detection and tracking system. The primary concepts applied include:
+
+UART Communication: The US-100 ultrasonic sensor communicates with the TM4C123 via UART4, enabling distance measurement in centimeters using a simple protocol.
+
+PWM (Pulse Width Modulation): The servo motor is controlled through PWM0, with precise pulse widths corresponding to angles between 0° and 180°, allowing directional scanning.
+
+SysTick Timer: A 1ms system tick is generated using the SysTick timer to handle accurate timing for delays, sensor sampling, and servo sweep updates.
+
+LCD Display via GPIO: The EduBASE 16x2 LCD is driven through GPIO ports A, C, and E, showing real-time status and distance values.
+
+Embedded Control Logic: The system switches between sweeping, locking, and tracking modes based on the measured distance and lock conditions.
+
+To achieve the project goals, custom drivers were written for each peripheral (UART, PWM, SysTick, and LCD). A sweep-and-lock algorithm continuously moves the servo and checks for an object using the US-100. Once detected, the system halts sweeping and locks the servo at that position, tracking the object if it moves left or right within a defined range.
 
 # Functional Block Diagram
 ![image](https://github.com/user-attachments/assets/6a9f0baa-264b-44fa-96dd-a53e6995b845)
