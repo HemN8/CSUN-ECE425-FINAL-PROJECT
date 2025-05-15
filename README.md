@@ -22,18 +22,13 @@ This project applies several embedded systems concepts covered throughout the se
 ![image](https://github.com/user-attachments/assets/6a9f0baa-264b-44fa-96dd-a53e6995b845)
 
 # Components Used
+
 1)TM4C123GH6PM	
-
 2) US-100 Ultrasonic Sensor
-   
 3) Micro Servo Motor
- 	
 4) 16x2 LCD Display
-
 5) Jumper Wires
-
 6) USB Micro Cable
-
 7) EduBASE board
    
 
