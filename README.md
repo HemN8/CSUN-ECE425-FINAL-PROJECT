@@ -34,7 +34,7 @@ To achieve the project goals, custom drivers were written for each peripheral (U
 
 # Components Used
 
-1)TM4C123GH6PM	
+1.TM4C123GH6PM	
 
 2) US-100 Ultrasonic Sensor
 
